@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.block-1 {
+  display: block;
+}
+.block-1-background {
+  background-color: #541554;
+  width: 100vw;
+  height: 100vh;
+}
+.block-1-intro {
+  margin: 30px;
+  display: inline-block;
+  max-width: 700px;
+}
+.block-1-intro h1 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.0625;
+  letter-spacing: -1.5px;
+  font-size: calc(2.75rem + 20 * (100vw - 400px) / 624);
+}
+.block-1-intro p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: calc(1rem + 2 * (100vw - 400px) / 624);
+  font-weight: 400;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+}
+.block-1-intro span {
+  color: #ecb22e;
+}
+.block-1-intro__text {
+  color: white;
+  text-align: center;
+  margin: 8px;
+}
+.block-1-intro-email {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 56px;
+}
+.block-1-intro-email__text {
+  color: #541554;
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+}
+.block-1-intro-google {
+  margin-top: 10px;
+  height: 56px;
+  width: 100%;
+  background-color: #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-1-intro-google__text {
+  color: white;
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+}
+.block-1-intro-google__icon {
+  background-color: white;
+  height: 80%;
+  width: 44.8px;
+  justify-self: auto;
+}
+.block-1-img {
+  margin-top: 25px;
+  display: inline-block;
+}
+.block-1-img__img {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
