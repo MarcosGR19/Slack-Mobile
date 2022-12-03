@@ -1,0 +1,91 @@
+.block-2{
+    display:block;
+    background-color: $beige;
+    height: 320vh;
+    padding-top: 50px;
+
+    &-intro_text{
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        font-weight: 700;
+        line-height: 1.125;
+        letter-spacing: .8px;
+        text-align: center;
+        font-size: calc(.875rem + (0 * (100vw - 400px)/ 624));
+        display: block;
+    }
+
+    &-logos_container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        gap:10px;
+
+        img{
+            margin:10px;
+        }
+
+    }
+
+    &-sections{
+        margin-top:50px;
+        width: 100%;
+
+
+        &-img{
+            display:inline-flex;
+            width:500px;
+            justify-content: start;
+
+            &--right{
+                display:inline-flex;
+                width:500px;
+                justify-content: end;
+            }
+
+
+            &__img{
+                margin-bottom: 25px;
+                display:inline-block;
+            }
+
+        }
+
+        &__text{
+            margin: 25px 20px 50px 20px;
+            display:inline-block;
+            max-width:500px;
+
+            &--title{
+                font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                font-weight: 700;
+                line-height: 1.1875;
+                letter-spacing: -.3px;
+                margin-bottom: 1rem;
+                font-size:2rem;
+            }
+
+            &--par{
+                font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                font-weight: 400;
+                line-height: 1.4444;
+                letter-spacing: normal;
+                font-size: 1.125rem;
+                margin-bottom: 1rem
+            }
+
+            &--link{
+                :hover{
+                    text-decoration: underline;
+                }
+                font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                color:#1264b2;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+
+}
