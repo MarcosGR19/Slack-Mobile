@@ -1,7 +1,7 @@
 .block-2{
     display:block;
     background-color: $beige;
-    height: 320vh;
+    height: 330vh;
     padding-top: 50px;
 
     &-intro_text{
@@ -30,24 +30,23 @@
     &-sections{
         margin-top:50px;
         width: 100%;
+        
+        &--end{
+            margin-top:50px;
+            width: 100%;
+            display: inline-flex;
+            justify-content: end;
+            flex-wrap: wrap;
+        }
 
+        &__img{
+            width:100%;
+            max-width: 400px;
+            margin-bottom: 25px;
 
-        &-img{
             display:inline-flex;
-            width:500px;
             justify-content: start;
-
-            &--right{
-                display:inline-flex;
-                width:500px;
-                justify-content: end;
-            }
-
-
-            &__img{
-                margin-bottom: 25px;
-                display:inline-block;
-            }
+            align-items:stretch;
 
         }
 
@@ -55,6 +54,7 @@
             margin: 25px 20px 50px 20px;
             display:inline-block;
             max-width:500px;
+            // order:-1;
 
             &--title{
                 font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
@@ -74,10 +74,11 @@
                 margin-bottom: 1rem
             }
 
+            a:hover{
+                text-decoration: underline;
+            }
+
             &--link{
-                :hover{
-                    text-decoration: underline;
-                }
                 font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
                 color:#1264b2;
                 font-size: 16px;
