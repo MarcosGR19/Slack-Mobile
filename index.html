@@ -9,33 +9,38 @@
 </head>
 <body>
     <header>
+<!-- NAV-TAB -->
         <nav>
-            <!-- <svg src="./sources/hamb.svg"></svg> -->
+            <div class="nav">
+                <div class="nav-logo">
+                    <img class="nav-logo__img" src="./sources/logo.png">
+                </div>
+                <div class="nav-hambur">
+                    <img class="nav-hambur__img" src="./sources/hamb.svg">
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-<!-- BLOCK 1 -->
         <div class="block-1">
-            <div class="block-1-background">
  <!-- INTRO -->
                 <div class="block-1-intro">
                     <h1 class="block-1-intro__text">Un buen trabajo en equipo comienza con una <span>sede digital</span></h1>
                     <p class="block-1-intro__text">Reunir a todos tus compañeros, herramientas y comunicación en un mismo lugar te permitirá trabajar de manera más rápida y eficiente que nunca.</p>
-                    <div class="block-1-intro-email">
+                    <button class="block-1-intro-email unstyle">
                         <a class="block-1-intro-email__text">REGISTRARSE CON CORREO</a>
-                    </div>
-                    <div class="block-1-intro-google">
+                    </button>
+                    <button class="block-1-intro-google unstyle">
                         <div></div>
                         <div class="block-1-intro-google__icon"></div>
-                        <a class="block-1-intro-google__text">REGISTRARSE CON GOOGLE</a>
+                            <a class="block-1-intro-google__text">REGISTRARSE CON GOOGLE</a>
                         <div class="block-1-intro-google__icon"></div>
-                    </div>
+                    </button>
                 </div>
  <!-- IMAGEN -->
-                <figure class="block-1-img">
+                <!-- <figure class="block-1-img"> -->
                     <img class="block-1-img__img" src="./sources/img1.png">
-                </figure>
-            </div>
+                <!-- </figure> -->
         </div>
 <!-- BLOQUE 2 -->
         <div class="block-2">
@@ -49,55 +54,138 @@
                 <img src="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png" >
             </div>
  <!-- SECTION 1 -->          
-            <div class="block-2-sections">
-                <div class="block-2-sections-img">
-                    <img class="block-2-sections-img__img" src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/static/connectedness-mobile.es-ES.png">
-                </div>
+            <section class="block-2-sections">
+                <img class="block-2-sections__img" src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/static/connectedness-mobile.es-ES.png">
                 <div class="block-2-sections__text">
                     <h1 class="block-2-sections__text--title">Reúne a tu equipo</h1>
                     <p class="block-2-sections__text--par">Los canales son el corazón de Slack. Son espacios organizados para todo el mundo que contienen todo lo necesario para trabajar. Los canales permiten conectarse entre departamentos, oficinas, zonas horarias e incluso con otras empresas.</p>
                     <a class="block-2-sections__text--link">Obtener más información sobre los canales</a>
                 </div>
-            </div>
+            </section>
  <!-- SECTION 2 --> 
-            <div class="block-2-sections">
-                <div class="block-2-sections-img">
-                    <img class="block-2-sections-img__img" src="./sources/img2.png">
-                </div>
+            <section class="block-2-sections--end">
+                <img class="block-2-sections__img" src="./sources/img2.png">
                 <div class="block-2-sections__text">
                     <h1 class="block-2-sections__text--title">Selecciona cómo quieres trabajar</h1>
                     <p class="block-2-sections__text--par">Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.</p>
                     <a class="block-2-sections__text--link">Obtén más información acerca de la comunicación flexible</a>
                 </div>
-            </div>
+            </section>
  <!-- SECTION 3 --> 
-            <div class="block-2-sections">
-                <div class="block-2-sections-img">
-                    <img class="block-2-sections-img__img" src="./sources/img3.png">
-                </div>
+            <section class="block-2-sections">
+                <img class="block-2-sections__img" src="./sources/img3.png">
                 <div class="block-2-sections__text">
                     <h1 class="block-2-sections__text--title">Agiliza el trabajo con todas tus herramientas en un mismo lugar</h1>
                     <p class="block-2-sections__text--par">Conectar tus otras aplicaciones de trabajo con Slack te permite ahorrar tiempo al no tener que cambiar entre pestañas. Además, con herramientas eficaces como el Creador de flujos de trabajo, puedes automatizar tareas rutinarias.</p>
                     <a class="block-2-sections__text--link">Más información sobre la plataforma de Slack</a>
                 </div>
-            </div>
+            </section>
         </div>
 <!-- BLOCK 3 --> 
         <div class="block-3">
-
+            <h1>Equipos grandes y pequeños confían en Slack</h1>
+            <p>Slack se adapta de forma segura para garantizar la colaboración en las empresas más importantes del mundo.</p>
+            <div class="block-3-button-container">
+                <button class="button button--purple unstyle">
+                    <a class="button__text">CONOCE SLACK PARA EMPRESAS</a>
+                </button>
+                <button class="button button--white unstyle">
+                    <a class="button__text">HABLAR CON EL EQUIPO DE VENTAS</a>
+                </button>
+            </div>
+            <div class="block-3-num-container">
+                <div class="block-3-num-container__cont">
+                    <h1 class="block-3-num-container__cont__h1ercentage">85%</h1>
+                    <p class="block-3-num-container__contpercentage__text">de usuarios afirma que Slack ha mejorado la comunicación*</p>
+                </div>
+                <div class="block-3-num-container__cont">
+                    <h1 class="block-3-num-container__cont__percentage">86%</h1>
+                    <p class="block-3-num-container__cont__percentage__text">creen que su capacidad para trabajar a distancia ha mejorado*</p>
+                </div>
+                <div class="block-3-num-container__cont">
+                    <h1 class="block-3-num-container__cont__percentage">88%</h1>
+                    <p class="block-3-num-container__cont__percentage__text">se sienten más conectados con sus equipos*</p>
+                </div>
+            </div>
+            
         </div>
-        <div class="block-4">
-
-        </div>
-        <div class="block-5">
-
-        </div>
-        <div class="block-6">
-
-        </div>
-        <div class="block-7">
-
-        </div>
+        
     </main>
+    <footer>
+        <div class="first-section">
+            <h1>Te damos la bienvenida a tu nueva sede digital</h1>
+            <div class="first-section-button-container">
+                <button class="button button--white unstyle">
+                    <a class="button__text">CONOCE SLACK PARA EMPRESAS</a>
+                </button>
+                <button class="button button--purple-white unstyle">
+                    <a class="button__text">HABLAR CON EL EQUIPO DE VENTAS</a>
+                </button>
+            </div>
+        </div>
+        <div class="second-section">
+            <img src="./sources/logo-img.png">
+            <ul class="second-section-father-container">
+                <li class="second-section__cont">
+                    <p class="second-section__text">¿POR QUÉ SLACK?</p>
+                    <img src="https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg">
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">PRODUCTO</p>
+                    <img src="https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg">
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">PRECIOS</p>
+                    <img src="https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg">
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">RECURSOS</p>
+                    <img src="https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg">
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">EMPRESA</p>
+                    <img src="https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg">
+                </li>
+            </ul>
+            <figure class="second-section-line">
+                <img class="second-section-line__line" src="./sources/linea.png">
+            </figure>
+            <ul>
+                <li class="second-section__cont">
+                    <p class="second-section__text">Estado</p>
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">Privacidad</p>
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">Términos</p>
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">Preferencias de cookies</p>
+                </li>
+                <li class="second-section__cont">
+                    <p class="second-section__text">Contáctanos</p>
+                </li>
+            </ul>
+            <div>
+                <div class="second-section__cont2">
+                    <img class="second-section__mini-logo" src="./sources/world.png">
+                    <p class="second-section__text" >Cambiar de región</p>
+                    <img class="second-section__flechita-abajo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI1IiB2aWV3Qm94PSIwIDAgOCA1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik03IDFMNCA0TDEgMSIgc3Ryb2tlPSIjMUQxQzFEIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg">
+                </div>
+                <div class="second-section__cont2">
+                    <img class="second-section__mini-logo" src="./sources/download.svg">
+                    <p class="second-section__text second-section__text--blue">Descargar Slack</p>
+                </div>
+            </div>
+            <div class="second-section-logos">
+                <img src="./sources/twitter.svg">
+                <img src="./sources/facebook.svg">
+                <img src="./sources/yt.svg">
+                <img src="./sources/linkedin.svg">
+            </div>
+            <p class="second-section__bottom-text">©2022 Slack Technologies, LLC, una empresa de Salesforce. Todos los derechos reservados. Las distintas marcas comerciales pertenecen a sus respectivos propietarios.</p>
+        </div>
+    </footer>
 </body>
 </html>
