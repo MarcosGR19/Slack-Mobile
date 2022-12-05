@@ -2,7 +2,7 @@
 .block-3{
     display:block;
     background-color: $white;
-    height: 1000px;
+    height: 880px;
     padding:50px;    
     justify-content: center;
 
@@ -33,6 +33,9 @@
     &-button-container{
         width: 100%;
         min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     &-num-container{
@@ -77,16 +80,23 @@
     max-width:500px;
     height: 56px;
     margin-top: 10px;
-    border: $purple 2px solid;
 
     &--white{
         background-color: $white;
         color:$purple;
+        border: $purple 2px solid;
     }
 
     &--purple{
         background-color: $purple;
         color:$white;
+        border: $purple 2px solid;
+    }
+
+    &--purple-white{
+        background-color: $purple;
+        color:$white;
+        border: $white 2px solid;
     }
 
     &__text{
