@@ -194,11 +194,11 @@
 .block-3 {
   display: block;
   background-color: white;
-  height: 880px;
+  height: 1500px;
   padding: 50px;
   justify-content: center;
 }
-.block-3 p {
+.block-3__par {
   display: block;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
@@ -207,7 +207,7 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.block-3 h1 {
+.block-3__title {
   display: block;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 700;
@@ -249,6 +249,20 @@
 .block-3-num-container__cont {
   width: 190px;
   height: 400px;
+}
+.block-3-vid__vid-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.block-3-vid__text {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.417;
+  letter-spacing: -0.3px;
+  font-style: italic;
+  font-size: calc(1.25rem + 4 * (100vw - 400px) / 624);
+  margin: 50px 0px;
 }
 
 .button {
