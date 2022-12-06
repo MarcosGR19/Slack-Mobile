@@ -44,8 +44,8 @@
 
 .block-1 {
   background-color: #541554;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -508,4 +508,10 @@ footer {
   font-size: calc(0.75rem + 0 * (100vw - 400px) / 624);
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   margin: 0px 25px;
+}
+.second-section__flechita-abajo {
+  margin-left: 10px;
+}
+.second-section__mini-logo {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
