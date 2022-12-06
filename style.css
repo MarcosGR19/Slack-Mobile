@@ -9,6 +9,15 @@
   list-style: none;
 }
 
+.display-td {
+  display: none;
+}
+@media screen and (min-width: 943px) {
+  .display-td {
+    display: inline;
+  }
+}
+
 .nav {
   width: 100%;
   height: 80px;
@@ -40,6 +49,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media screen and (min-width: 943px) {
+  .block-1 {
+    display: inline-block;
+  }
 }
 .block-1-intro {
   margin: 20px;
@@ -90,7 +104,7 @@
   width: 100%;
   background-color: #4285f4;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .block-1-intro-google__text {
@@ -105,7 +119,15 @@
   background-color: white;
   height: 80%;
   width: 44.8px;
-  justify-self: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+.block-1-intro-google__icon--img {
+  width: 70%;
+  height: 70%;
 }
 .block-1-img {
   display: flex;
@@ -121,6 +143,16 @@
   background-color: #f4ede4;
   height: 3050px;
   padding-top: 50px;
+}
+@media screen and (min-width: 500px) {
+  .block-2 {
+    height: 2800px;
+  }
+}
+@media screen and (min-width: 943px) {
+  .block-2 {
+    height: 2000px;
+  }
 }
 .block-2-intro_text {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
@@ -329,14 +361,80 @@
   letter-spacing: 0.8px;
 }
 
+.block-4 {
+  background-color: #f4ede4;
+  height: 800px;
+  width: 100%;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.block-4__title {
+  text-align: center;
+  font-size: calc(1.5rem + 8 * (100vw - 400px) / 624);
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  margin-bottom: 40px;
+}
+.block-4__target-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.block-4__target {
+  background-color: white;
+  height: 436px;
+  width: 285px;
+  padding: 14px;
+}
+.block-4__target:hover {
+  transform: scale(1.1);
+}
+.block-4__target--title {
+  font-size: calc(1.4rem + 1.6 * (100vw - 400px) / 624);
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 0 6rem;
+}
+.block-4__target--img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.block-4__target--span {
+  margin-top: 12px;
+  font-size: calc(0.875rem + 0 * (100vw - 400px) / 624);
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #454245;
+}
+.block-4__target__link {
+  display: flex;
+  align-items: flex-end;
+}
+.block-4__target__link--link {
+  font-size: calc(0.875rem + 0 * (100vw - 400px) / 624);
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  color: #1264a3;
+}
+.block-4__target__link--arrow {
+  height: 13px;
+  width: 20px;
+}
+
 footer {
   display: block;
 }
 
 .first-section {
-  background-image: url(../sources/bot.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+  background: #4a154b;
+  height: auto;
+  min-height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: center;

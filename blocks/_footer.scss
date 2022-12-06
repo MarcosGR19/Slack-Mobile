@@ -3,9 +3,11 @@ footer{
 }
 
 .first-section{
-    background-image: url(../sources/bot.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    clip-path: ellipse(105% 100% at center top);
+    background: #4a154b;
+    height: auto;
+    min-height: 370px;
+
     display:flex;
     flex-direction: column;
     justify-content: center;

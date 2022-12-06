@@ -6,6 +6,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    @include desktop{
+        display:inline-block;
+    }
+
     &-intro{
         margin:20px;
         display:inline-block;
@@ -62,7 +66,7 @@
             background-color: $google-color;
             
             display: flex;
-            justify-content:center;
+            justify-content:space-between;
             align-items: center;
 
             &__text{
@@ -78,7 +82,16 @@
                 background-color: $white;
                 height: 80%;
                 width:44.8px;
-                justify-self:auto;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                border-radius: 2px;
+                margin-left: 5px;
+
+                &--img{
+                    width: 70%;
+                    height: 70%;
+                }
             }
         }
 

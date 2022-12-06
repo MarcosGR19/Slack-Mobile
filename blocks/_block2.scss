@@ -2,7 +2,16 @@
     display:block;
     background-color: $beige;
     height: 3050px;
+    
     padding-top: 50px;
+
+    @include tablet{
+        height: 2800px;
+    }
+
+    @include desktop{
+        height: 2000px;
+    }
 
     &-intro_text{
         font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
